@@ -1,0 +1,26 @@
+.book-summary{
+  background: #2C3D89;
+}
+
+  .book-summary ul.summary li.header {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ECF0F1;
+    padding-top: 40px;
+  }
+
+  .book-summary ul.summary li.header:first-of-type{
+    padding-top: 20px;
+
+  }
+
+  .book-summary ul.summary li a {
+    color: #ABB7B7;
+    padding-left: 25px;
+  }
+
+  .book-summary ul.summary li.active > a {
+    background-color: #81D4FA;
+    opacity: .77;
+    color: #333;
+  }

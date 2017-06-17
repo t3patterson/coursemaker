@@ -1,0 +1,25 @@
+{
+  "name": "js-curriculum",
+  "version": "1.0.0",
+  "description": "## Course Outline Week 1 -- HTML + CSS",
+  "main": "index.js",
+  "scripts": {
+    "publish" : "",
+    "dev" : "gitbook serve",
+    "build": "gitbook build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t3patterson/js-curriculum.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/t3patterson/js-curriculum/issues"
+  },
+  "homepage": "https://github.com/t3patterson/js-curriculum#readme",
+  "devDependencies": {
+    "npm-run-all": "^4.0.2"
+  }
+}
