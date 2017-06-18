@@ -9,7 +9,7 @@
     padding-top: 40px;
   }
 
-  .book-summary ul.summary li.header:nth-child(n+1){
+  .book-summary ul.summary li.header:first-of-type{
     padding-top: 20px;
 
   }
@@ -19,9 +19,14 @@
     padding-left: 25px;
   }
 
-
   .book-summary ul.summary li.active > a {
     background-color: #81D4FA;
     opacity: .77;
     color: #333;
   }
+
+.page-inner h1 {
+  background-color: #81D4FA;
+  padding: 5px;
+  text-align: right
+}

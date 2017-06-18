@@ -4,9 +4,9 @@
   "description": "## Course Outline Week 1 -- HTML + CSS",
   "main": "index.js",
   "scripts": {
-    "publish" : "",
-    "dev" : "gitbook serve",
-    "build": "gitbook build",
+    "publish": "",
+    "dev": "./node_modules/.bin/gitbook serve",
+    "build": "./node_modules/.bin/gitbook build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +20,13 @@
   },
   "homepage": "https://github.com/t3patterson/js-curriculum#readme",
   "devDependencies": {
+    "prettyjson": "^1.2.1"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "fs-extra": "^3.0.1",
+    "gitbook": "^3.2.2",
+    "gitbook-cli": "^2.3.0",
     "npm-run-all": "^4.0.2"
   }
 }

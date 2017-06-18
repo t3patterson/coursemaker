@@ -24,3 +24,9 @@
     opacity: .77;
     color: #333;
   }
+
+.page-inner h1 {
+  background-color: #81D4FA;
+  padding: 5px;
+  text-align: right
+}

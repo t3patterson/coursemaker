@@ -1,3 +1,4 @@
+
 # Summary
 
 ### Introduction
@@ -8,13 +9,15 @@
 
 ### HTML + CSS
 
-+ [HTML - Rothko](./01-html-css/html-basics-rothko/README.md)
-+ [CSS Full Page Layout - MFAH](./01-html-css/html-css-full-layout-mfah/README.md)
-+ [CSS Responsive Layout](./01-html-css/css-responsive-design-strange-beautiful/README.md)
++ [HTML Basics - Rothko](./courseModules/html-css/html-basics-rothko)
++ [HTML/CSS Layout - MFAH](./courseModules/html-css/html-css-full-layout-mfah)
++ [CSS Responsive Design - Strange|Beautiful](./courseModules/html-css/css-responsive-design-strange-beautiful)
 
-### Javascript Fundamentals
-+ [JS Basics - types, variables, functions](./02-js-fundamentals/js-types-variables-functions/README.md)
-+ [JS Arrays - basics](./02-js-fundamentals/js-arrays-basics/README.md)
-+ [JS Arrays - intermediate](./02-js-fundamentals/js-arrays-intermediate/README.md)
-+ [JS Objects - basics](./02-js-fundamentals/js-objects-basics/README.md)
-+ [JS Objects - intermediate](./02-js-fundamentals/js-objects-intermediate/README.md)
+### JS Fundamentals
+
++ [CSS Responsive Design - Strange|Beautiful](./courseModules/js-fundamentals/js-types-variables-functions)
++ [JS Arrays - Basic](./courseModules/js-fundamentals/js-arrays-basics)
++ [JS Arrays - Intermediate](./courseModules/js-fundamentals/js-arrays-intermediate)
++ [JS Objects - Basic](./courseModules/js-fundamentals/js-objects-basics)
++ [JS Objects - Intermediate](./courseModules/js-fundamentals/js-objects-intermediate)
+
