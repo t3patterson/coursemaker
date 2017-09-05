@@ -4,9 +4,10 @@
   "description": "## Course Outline Week 1 -- HTML + CSS",
   "main": "index.js",
   "scripts": {
-    "publish": "",
     "dev": "./node_modules/.bin/gitbook serve",
-    "build": "./node_modules/.bin/gitbook build",
+    "build": "npm-run-all build:course build:gitbook",
+    "build:course": "node ./_exec/buildCourse.js",
+    "build:gitbook": "./node_modules/.bin/gitbook build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

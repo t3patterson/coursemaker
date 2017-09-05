@@ -3,21 +3,24 @@
 
 ### Introduction
 
-+ [Course Outline](README.md)
++ [Prework Outline](README.md)
 
 ----
 
-### HTML + CSS
+### Developer Foundations
 
-+ [HTML Basics - Rothko](./courseModules/html-css/html-basics-rothko)
-+ [HTML/CSS Layout - MFAH](./courseModules/html-css/html-css-full-layout-mfah)
-+ [CSS Responsive Design - Strange|Beautiful](./courseModules/html-css/css-responsive-design-strange-beautiful)
++ [Growth Mindset](./courseModules/dev-foundations/growth-mindset/README.md)
++ [Web Basics](./courseModules/dev-foundations/web-basics/README.md)
 
-### JS Fundamentals
+### HTML CSS Fundamentals
 
-+ [CSS Responsive Design - Strange|Beautiful](./courseModules/js-fundamentals/js-types-variables-functions)
-+ [JS Arrays - Basic](./courseModules/js-fundamentals/js-arrays-basics)
-+ [JS Arrays - Intermediate](./courseModules/js-fundamentals/js-arrays-intermediate)
-+ [JS Objects - Basic](./courseModules/js-fundamentals/js-objects-basics)
-+ [JS Objects - Intermediate](./courseModules/js-fundamentals/js-objects-intermediate)
+
+
+### JavaScript Foundations
+
+
+
+### Front End Foundations
+
+
 

@@ -1,9 +1,31 @@
-.book-summary{
-  background: #2C3D89;
+body, li, p {
+  font-family: 'Montserrat', sans-serif;
+  color: #666;
 }
+/* TOC Styles */
+.book-summary{
+  /*background: #2C3D89;*/
+  background: #333;
+}
+  .book-summary-header{
+    background: #fff;
+  }
+    .book-full-header-title{
+      display: inline-block;
+      color: #2C3D89;
+      font-weight: 300;
+      font-family: 'Libre Franklin', sans-serif;
+      vertical-align: middle;
+      margin: 0;
+    }
+    .book-full-header-img{
+      display: inline-block;
+      width: 50px;
+      vertical-align: middle;
+    }
 
   .book-summary ul.summary li.header {
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 700;
     color: #ECF0F1;
     padding-top: 40px;
@@ -11,7 +33,10 @@
 
   .book-summary ul.summary li.header:first-of-type{
     padding-top: 20px;
+  }
 
+  .book-summary ul.summary li{
+    font-size: 1.125em;
   }
 
   .book-summary ul.summary li a {
@@ -25,8 +50,70 @@
     color: #333;
   }
 
+/* Book Body Styles */
+
+
+.book-header{
+  background: #fff;
+  border-bottom: 2px solid rgba(100,100,100,.15);
+}
+
+.book-body{
+  background: #f3f3f3;
+}
+
+.page-inner {
+  padding-top: 0rem;
+  max-width: 920px;
+}
+
 .page-inner h1 {
-  background-color: #81D4FA;
-  padding: 5px;
-  text-align: right
+  margin-top: 0;
+  font-weight: 200;
+  font-size: 2em;
+  padding-top: 1em;
+  padding-left: .25em;
+  padding-right: .25em;
+  padding-bottom: .125em;
+  border-bottom: .25em solid #2C3D89;
+  background: #666;
+  color: #fff;
+}
+
+.markdown-section>:first-child{
+  margin: 0 -.75rem;
+}
+
+.page-wrapper{
+  background: #f3f3f3;
+  padding: 0;
+}
+
+.markdown-section{
+  padding: 0 .5em;
+  background: #fff;
+}
+
+
+
+.markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6{
+  font-weight: 600;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.markdown-section h2{
+  border-bottom: 1px #ddd solid;
+}
+
+.markdown-section p{
+  font-size: 1.125em;
+}
+
+.markdown-section hr{
+  opacity: .4;
+}
+
+.markdown-section table ul{
+  margin-top: .85em;
+  margin-bottom: .85em;
 }
